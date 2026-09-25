@@ -14,7 +14,7 @@ Config.SurfaceTopY = Config.PlanetRadius -- top of the sphere
 Config.GravityPerMass = 0.3 -- studs/s per frame impulse factor
 Config.FallSpeedMax = 120
 
--- Character tuning
+-- Character tuning (multipliers on the default R6 head -> big caricature head)
 Config.CaricatureHeadWidth = 1.75
 Config.CaricatureHeadDepth = 1.75
 Config.CaricatureHeadHeight = 1.45
@@ -23,6 +23,8 @@ Config.CaricatureHeadHeight = 1.45
 Config.FlameStreak = 3
 Config.FlameColor = Color3.fromRGB(255, 150, 60) -- light orange
 Config.FlameSize = Vector3.new(2.2, 2.6, 2.2)
+Config.StreakWindowSeconds = 30 -- streak only counts these many seconds apart
+Config.FlameAnchorHeight = 0.45
 
 -- Basketball
 Config.BallSpawnHeight = 6
