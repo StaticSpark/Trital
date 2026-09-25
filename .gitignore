@@ -1,0 +1,6 @@
+*.rbxl
+*.rbxl.lock
+*.rbxmx
+.DS_Store
+.vscode/
+build/
