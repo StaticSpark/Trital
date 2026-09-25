@@ -22,9 +22,22 @@ ladder).
 ## Phases
 
 - **P0 — Repo & plan**: this repo, plan, issues, PR-per-branch workflow. *(done)*
-- **P1 — Core scaffold**: config module + remotes folder. → `feat/core-scaffold`
-- **P2 — Spherical world**: planet shell, spherical gravity, radial camera. → `feat/spherical-world`
-- **P3 — Game**: gym map builder, caricature heads, kill streaks + flame hair, queue + league champs, HUD. → `feat/gym-and-characters`
+- **P1 — Core scaffold**: config module + remotes folder. → `feat/core-scaffold` *(done, PR #6)*
+- **P2 — Spherical world**: planet shell, spherical gravity, radial camera. → `feat/spherical-world` *(done, PR #7)*
+- **P3 — Game**: gym map builder, caricature heads, kill streaks + flame hair, queue + league champs, HUD. → `feat/gym-and-characters` *(done, PR #8)*
+
+## Installed scripts
+
+| Script | Container | Issue | Purpose |
+|---|---|---|---|
+| `Config` (ModuleScript) | `ReplicatedStorage.Modules` | — | all tuning constants incl. caricature head multipliers |
+| `PlanetBuilder` | `ServerScriptService` | #1 | 400-stud sphere + pole field + spawn |
+| `GravityService` | `ServerScriptService` | #1 | radial gravity toward planet center |
+| `CameraController` (LocalScript) | `StarterPlayerScripts` | #1 | camera up = radial, always on top |
+| `GymBuilder` | `ServerScriptService` | #2 | gymnasium, court, hoops, bleachers, basketballs |
+| `CombatService` | `ServerScriptService` | #3, #4 | big-head caricatures, ball damage + head multiplier, triple-kill flame hair |
+| `QueueService` | `ServerScriptService` | #5 | tryout pad queue (4/squad), League Champs ring + leaderboard, title matches |
+
 
 ## Repo layout (mirrors Roblox places)
 
