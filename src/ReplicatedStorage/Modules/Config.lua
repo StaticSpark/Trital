@@ -23,7 +23,6 @@ Config.CaricatureHeadHeight = 1.45
 Config.FlameStreak = 3
 Config.FlameColor = Color3.fromRGB(255, 150, 60) -- light orange
 Config.FlameSize = Vector3.new(2.2, 2.6, 2.2)
-Config.FlameHeat = 20
 
 -- Basketball
 Config.BallSpawnHeight = 6
